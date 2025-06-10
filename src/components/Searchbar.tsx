@@ -19,7 +19,7 @@ const SearchBar = () => {
 
   return (
     <form onSubmit={handleSubmit} className="bg-white flex px-4 py-3  border-[#333] focus-within:border-blue-500 overflow-hidden max-w-md mx-auto font-[sans-serif]">
-        <input value={searchQuery} onChange={(e) => setSearchQuery(e.target.value)} type="text" placeholder="Search by name..." className="w-full outline-none text-sm" />
+        <input value={searchQuery} onChange={(e) => setSearchQuery(e.target.value)} type="text" placeholder="Search..." className="w-full outline-none text-sm" />
         <button type='submit'>
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 192.904 192.904" width="18px" className="fill-gray-600 mr-3">
             <path
